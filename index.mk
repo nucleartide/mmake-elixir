@@ -6,3 +6,8 @@
 flow:
 	@mix dialyzer
 .PHONY: flow
+
+# Run tests.
+test: flow
+	@mix test
+.PHONY: test
